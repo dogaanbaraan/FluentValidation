@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FluentValidationApp.Web.Models;
+using FluentValidation;
 
 namespace FluentValidationApp.Web.Controllers
 {
@@ -14,10 +15,12 @@ namespace FluentValidationApp.Web.Controllers
     public class CustomersApiController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IValidator<Customer> _customerValidator;
 
-        public CustomersApiController(AppDbContext context)
+        public CustomersApiController(AppDbContext context, IValidator<Customer> customerValidator)
         {
             _context = context;
+            _customerValidator = customerValidator;
         }
 
         // GET: api/CustomersApi
@@ -79,6 +82,12 @@ namespace FluentValidationApp.Web.Controllers
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
+            var result = _customerValidator.Validate(customer);
+            if(!result.IsValid)
+            {
+                return BadRequest(result.Errors.Select(x => new { property = x.PropertyName, error = x.ErrorMessage }));
+            }
+
             _context.Customers.Add(customer);
             await _context.SaveChangesAsync();
 
