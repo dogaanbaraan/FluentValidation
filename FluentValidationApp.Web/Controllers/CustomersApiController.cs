@@ -32,7 +32,7 @@ namespace FluentValidationApp.Web.Controllers
 
         public IActionResult MappingOrnek()
         {
-            Customer customer = new Customer { Id = 4, Name = "Tayfun", Email = "tayfunkorcu@gmail.com", Age = 23 };
+            Customer customer = new Customer { Id = 4, Name = "Tayfun", Email = "tayfunkorcu@gmail.com", Age = 23, CreditCard = new CreditCard {Number="1234", ValidDate=DateTime.Now } };
             return Ok(_mapper.Map<CustomerDto>(customer));
         }
 

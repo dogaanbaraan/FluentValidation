@@ -20,6 +20,8 @@ namespace FluentValidationApp.Web.Models
             return $"{Name}-{Email}-{Age}";
         }
 
+        public CreditCard CreditCard { get; set; }
+
         //public string FullName2()
         //{
         //    return $"{Name}-{Email}-{Age}";
