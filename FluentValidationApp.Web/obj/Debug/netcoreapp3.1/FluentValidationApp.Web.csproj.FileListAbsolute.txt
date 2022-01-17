@@ -158,3 +158,4 @@ C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\n
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\FluentValidationApp.Web.csprojAssemblyReference.cache
+C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Projection\Index.cshtml.g.cs
