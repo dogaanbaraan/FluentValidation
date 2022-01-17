@@ -11,5 +11,6 @@ namespace FluentValidationApp.Web.DTOs
         public string Isim { get; set; }
         public string Eposta { get; set; }
         public int Yas { get; set; }
+        public string FullName { get; set; }
     }
 }
