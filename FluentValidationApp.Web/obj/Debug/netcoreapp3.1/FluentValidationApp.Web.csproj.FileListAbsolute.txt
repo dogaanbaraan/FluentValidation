@@ -8,7 +8,6 @@ C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\n
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\FluentValidationApp.Web.pdb
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\FluentValidationApp.Web.Views.dll
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\FluentValidationApp.Web.Views.pdb
-C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\FluentValidationApp.Web.csprojAssemblyReference.cache
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\FluentValidationApp.Web.AssemblyInfoInputs.cache
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\FluentValidationApp.Web.AssemblyInfo.cs
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\FluentValidationApp.Web.csproj.CoreCompileInputs.cache
@@ -156,3 +155,5 @@ C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\n
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\obj\Debug\netcoreapp3.1\FluentValidationApp.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\baran\source\repos\UdemyCoreLibrary\FluentValidationApp.Web\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+DTjhCcR8TE3vly5tBHIA6C61WU2vNqMHUzGqixVDoN3ja5pKFsyoa8duXBKzHtUhG6r55ZNy6fFnXmoopFPKA==",
+  "dgSpecHash": "6fGg3v2icnocyjLwCCJOLI1JELBO+eylweU9/v60wGzimqhZDTEuP7HI+MESS9hP3/N+pp4m0ejYSlZ/YMWVig==",
   "success": true,
   "projectFilePath": "C:\\Users\\baran\\source\\repos\\UdemyCoreLibrary\\FluentValidationApp.Web\\FluentValidationApp.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\baran\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\baran\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\baran\\.nuget\\packages\\fluentvalidation\\8.6.3\\fluentvalidation.8.6.3.nupkg.sha512",
     "C:\\Users\\baran\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.3\\fluentvalidation.aspnetcore.8.6.3.nupkg.sha512",
     "C:\\Users\\baran\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.3\\fluentvalidation.dependencyinjectionextensions.8.6.3.nupkg.sha512",
