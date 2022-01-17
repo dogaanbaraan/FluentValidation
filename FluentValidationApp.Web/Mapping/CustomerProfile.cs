@@ -8,14 +8,19 @@ using System.Threading.Tasks;
 
 namespace FluentValidationApp.Web.Mapping
 {
-    public class CustomerProfile:Profile
+    public class CustomerProfile : Profile
     {
         public CustomerProfile()
         {
             // CreateMap<CustomerDto, Customer>().ReverseMap();
-            CreateMap<Customer, CustomerDto>();
-            CreateMap<CustomerDto, Customer>();
-          
+            //CreateMap<Customer, CustomerDto>();
+            //CreateMap<CustomerDto, Customer>();
+            CreateMap<Customer, CustomerDto>()
+                .ForMember(dest=>dest.Isim, opt=>opt.MapFrom(x=>x.Name))
+                .ForMember(dest=>dest.Eposta, opt=>opt.MapFrom(x=>x.Email))
+                .ForMember(dest=>dest.Yas,opt=>opt.MapFrom(x=>x.Age));
+
+
 
         }
     }
